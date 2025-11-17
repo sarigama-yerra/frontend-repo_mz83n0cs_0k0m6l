@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import World from './components/World'
+import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <World />
+      <FAQ />
       <CTA />
       <footer className="bg-black/90 border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
